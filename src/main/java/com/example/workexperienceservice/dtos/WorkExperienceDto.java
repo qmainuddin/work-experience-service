@@ -16,8 +16,8 @@ import java.util.Date;
 public class WorkExperienceDto implements Serializable {
     Long id;
     Long version;
-    Date createdDate;
-    Date lastModifiedDate;
+//    Date createdDate;
+//    Date lastModifiedDate;
     @NotNull
     @NotEmpty
     @NotBlank
