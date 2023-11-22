@@ -19,7 +19,7 @@ public class WorkExperience extends BaseEntity {
 //    @ManyToOne(cascade = CascadeType.ALL, optional = false)
 //    @JoinColumn(name = "profile_id", nullable = false)
 //    private Profile profile;
-    private Long user_id;
+    private Long userId;
 
 // relation
 }

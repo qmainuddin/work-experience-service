@@ -15,4 +15,6 @@ public interface WorkExperienceService {
     WorkExperienceDto getWorkExperienceById(Long id);
 
     void delete(Long id);
+
+    void deleteByUserId(Long userId);
 }

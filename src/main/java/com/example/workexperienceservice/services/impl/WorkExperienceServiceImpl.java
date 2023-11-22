@@ -59,5 +59,10 @@ public class WorkExperienceServiceImpl implements WorkExperienceService {
     public void delete(Long id) {
         Optional.ofNullable(id).ifPresent(repository::deleteById);
     }
+
+    @Override
+    public void deleteByUserId(Long userId) {
+        repository.deleteByUserId(userId);
+    }
 }
 
